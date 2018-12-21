@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -28,5 +28,5 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $table = 'users';
+    protected $table = 'users'
 }
